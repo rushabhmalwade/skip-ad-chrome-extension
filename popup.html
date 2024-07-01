@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Auto Skip Ads</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 5px;
+        background-color: bisque;
+      }
+      .main {
+        padding: 2px;
+        width: 210px;
+        border: 2px solid black;
+        border-radius: 10px;
+      }
+      h1 {
+        padding: 10px;
+        font-size: 16px;
+        width: 200px;
+      }
+      .toggle {
+        display: flex;
+        align-items: center;
+      }
+      .toggle input {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>YouTube Auto Skip Ads</h1>
+      <div class="toggle">
+        <input type="checkbox" id="toggle" />
+        <label style="font-weight: bold" for="toggle">Enable Auto Skip</label>
+      </div>
+      <p>
+        This extension automatically skips ads on YouTube as soon as they
+        appear.
+      </p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
